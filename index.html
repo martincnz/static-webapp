@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestión de Flotas</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            background-color: #ffffff;
+            padding: 20px;
+            border-bottom: 1px solid #ddd;
+        }
+        .header img {
+            width: 50px;
+            height: auto;
+        }
+        .header .cta {
+            display: flex;
+            align-items: center;
+        }
+        .cta button {
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .main {
+            display: flex;
+            background-color: #ffffff;
+            padding: 40px;
+            margin-top: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .main .text {
+            flex: 1;
+            padding-right: 20px;
+        }
+        .main .text h1 {
+            font-size: 2em;
+            margin-bottom: 20px;
+        }
+        .main .text p {
+            font-size: 1.1em;
+            margin-bottom: 20px;
+        }
+        .main .image {
+            flex: 1;
+        }
+        .main .image img {
+            width: 100%;
+            border-radius: 10px;
+        }
+        .features {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 40px;
+        }
+        .features .feature {
+            background-color: #ffffff;
+            padding: 20px;
+            border-radius: 10px;
+            flex: 1;
+            margin-right: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .features .feature:last-child {
+            margin-right: 0;
+        }
+        .features .feature h3 {
+            margin-bottom: 10px;
+        }
+        .features .feature p {
+            font-size: 1em;
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <img src="logo.png" alt="Logo">
+            <div class="cta">
+                <button>QUIERO SABER MÁS</button>
+            </div>
+        </header>
+        <main class="main">
+            <div class="text">
+                <h1>Una nueva forma de gestionar tu flota</h1>
+                <p>Sumamos una solución de analítica avanzada que te brinda indicadores claves de tu operación y los convierte en reportes gerenciales para tomar las mejores decisiones.</p>
+                <button>QUIERO SABER MÁS</button>
+            </div>
+            <div class="image">
+                <img src="truck.jpg" alt="Gestión de Flota">
+            </div>
+        </main>
+        <section class="features">
+            <div class="feature">
+                <h3>Ahorra hasta el 20% del consumo de combustible</h3>
+                <p>Una mejor eficiencia disminuye drásticamente el consumo de combustible.</p>
+            </div>
+            <div class="feature">
+                <h3>Reduce los accidentes hasta en un 20%</h3>
+                <p>Ayuda a los conductores a mejorar sus hábitos de conducción. La telemetría previene accidentes.</p>
+            </div>
+            <div class="feature">
+                <h3>Optimiza hasta en un 10% el uso de tu flota</h3>
+                <p>Planifica tus rutas y mejora tu operación logística.</p>
+            </div>
+            <div class="feature">
+                <h3>Ahorra hasta 3 litros por hora</h3>
+                <p>Mantener el motor encendido en movimiento incrementa el consumo de combustible. Controla los tiempos de ralentí en tu flota.</p>
+            </div>
+        </section>
+    </div>
+</body>
+</html>
